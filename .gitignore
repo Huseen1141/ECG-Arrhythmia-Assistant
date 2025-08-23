@@ -1,16 +1,20 @@
-# Ignore virtual env
-venv/
-
-# Ignore data and models
-data/
-models/
-
-# Python cache
+# Ignore Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*.ipynb_checkpoints
 
-# Jupyter
-.ipynb_checkpoints/
+# Ignore virtual environments
+venv/
+.env
 
-# VS Code config
+# Ignore model and data outputs
+*.h5
+*.npz
+*.pkl
+
+# Ignore system files
+.DS_Store
+
+# Ignore editor files
 .vscode/
+.idea/
